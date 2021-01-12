@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Todo_wrapper{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.Todo_field{
+    width: 50%;
+}
+
+.Todo_input{
+    width: 100%;
+}
+
+.Todo_submit{
+    width: 25%;
+}
+
+.Todo_button{
+    width: 100%;
+    margin-left: 10px !important; 
+    padding: 0.80rem !important;
+    margin-top: 2rem;
+    max-height: 400px;
+
+}
+
+
+/*  */
+
+
+ul li {
+    list-style: none;
+}
+.Todo_listwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    transition: 0.2s all;
+    border: 1px solid rgb(218, 217, 217);
+    font-family: "Roboto";
+
+    
+
+}
+
+.Todo_listwrapper:hover{
+    border: 1px solid black;
+}
+
+.Todo_list{
+    padding: 1rem 1rem ;
+    cursor: inherit ;
+}
+
+.Todo_buttonContainer{
+    display: flex;
+}
+
+.title{
+    margin: 0px auto;
+
+    margin-bottom: 1.5rem;
+
+}
+
+.container{
+    margin: 0px auto !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
