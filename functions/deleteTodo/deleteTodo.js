@@ -7,7 +7,7 @@ const handler = async (event) => {
     const ID = JSON.parse(event.body)
 
 
-    const client = new faunadb.Client({secret : FAUNADB_SECRET_KEY});
+    const client = new faunadb.Client({secret : "fnAD_OP6LnACByLP4rOpB_INJBsNfftbPx7V_jUH"});
 
     const result = await client.query(
       q.Delete(q.Ref(q.Collection('todos') , ID))

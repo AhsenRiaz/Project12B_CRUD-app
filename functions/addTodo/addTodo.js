@@ -7,7 +7,7 @@ const handler = async (event) => {
   try {
 
     const reqObj = JSON.parse(event.body)
-    var client = new faunadb.Client({secret:FAUNADB_SECRET_KEY})
+    var client = new faunadb.Client({secret:"fnAD_OP6LnACByLP4rOpB_INJBsNfftbPx7V_jUH"})
     var result = await client.query(
       q.Create(q.Collection('todos') , {
         data : {

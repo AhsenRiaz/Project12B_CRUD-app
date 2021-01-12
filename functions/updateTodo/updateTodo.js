@@ -9,7 +9,7 @@ const handler = async (event) => {
     const reqObj = JSON.parse(event.body)
     console.log(JSON.stringify(reqObj))
 
-    const client = new faunadb.Client({secret : FAUNADB_SECRET_KEY})
+    const client = new faunadb.Client({secret : "fnAD_OP6LnACByLP4rOpB_INJBsNfftbPx7V_jUH"})
 
     const ID = reqObj.id
 
